@@ -45,7 +45,6 @@
     <link href="https://louis7.github.io/html_test/offcanvas.js" rel="stylesheet">
     <!--  Core Javascript -->
 
-    <script src="/Users/prometheus/Desktop/bubble_stories/offcanvas.js"> </script>
 
   </head>
 
@@ -68,10 +67,9 @@
     </div>
   </div>
 
-  <div style= "height: 150px;"  class="card w-50 ">
+  <div class="card bg-dark  w-50 border m-2 border-white bg-white">
     <img src="https://louis7.github.io/html_test/double_bubble2.jpg" class="card-img" alt="...">
 
-    </div>
   </div>
 
   <div class="card bg-dark  w-25  border m-2 border-white bg-white">
@@ -90,19 +88,29 @@
 
     </div>
   </div>
+  <div class="card bg-dark  w-50 border m-2 border-white bg-white">
+    <img src="https://louis7.github.io/html_test/double_bubble2.jpg" class="card-img" alt="...">
 
-
-  <div class="card bg-dark  w-25  border m-2 border-white bg-white">
-    <img src="https://louis7.github.io/html_test/test_bubble.jpg" class="card-img" alt="...">
-    <div class="card-img-overlay  b w-50 h-50 mx-auto my-auto  d-inline-flex p-0 justify-content-center" >
-
-      <p class="align-self-center mt-3">hello.</p>
-
-    </div>
   </div>
+
+
+
+  <div style="height: 100px; background-color: rgba(255,0,0,0.1);">
+  <div class="h-25 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 25%</div>
+  <div class="h-50 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 50%</div>
+  <div class="h-75 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 75%</div>
+  <div class="h-100 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 100%</div>
+</div>
 
     <!-- Text UI -->
-
+    <div class="card-footer fixed-bottom">
+            <div class="input-group">
+                  <textarea id="text_message" class="form-control type_msg" placeholder="Type your name..."></textarea>
+                    <div class="input-group-append">
+                        <span type="submit" onclick= "saveMessage(); displayGame();" class="input-group-text send_btn">Send<i class="fas fa-location-arrow"></i></span>
+                  </div>
+            </div>
+    </div>
 
 
 </main>
